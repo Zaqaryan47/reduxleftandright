@@ -39,6 +39,7 @@ const store = createStore(function(state,action){
 
                 color:action.payload.color,
            }
+        
         }
     };
     if(action.type == 'changeBorder'){

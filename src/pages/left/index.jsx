@@ -11,6 +11,8 @@ function Left() {
 
         <div className="contsiner-left">
 
+            <div className="center">
+
             <div className="text">
                 <input onChange={(e) => {
                     dispatch({
@@ -61,11 +63,12 @@ function Left() {
                     dispatch({
                         type: 'changeBorder',
                         payload: {
-                            boeder:e.target.value
+                            border:e.target.value
                         }
                     })
                 }} type="range" name="" id="" />
-
+                    
+                    </div>
         </div>
     )
 }

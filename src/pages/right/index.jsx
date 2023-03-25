@@ -27,12 +27,13 @@ function Right(){
     return(
 
         <div className="contsiner-right">
-
-            <div style={{backgroundColor:color2,borderRadius:radiu + '%'}} className="block">
+          
+            <div style={{backgroundColor:color2,borderRadius:radiu+'%'}} className="block">
                 <div className="txtt">
                 <h1 style={{color:color}} className="txt">{name}</h1>
                 <h1 style={{color:color1}} className="txt">{name1}</h1>
                 </div>
+                
             </div>
             
         </div>
